@@ -24,8 +24,8 @@ connectDB();
 CORS
 
 */
-
 const allowedOrigins = [
+"https://nova-ecommerce-mu.vercel.app",
 "http://localhost:5173",
 "http://localhost:5174",
 "http://localhost:5175",
