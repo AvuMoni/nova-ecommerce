@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import API_URL from "../api";
 
-const API_URL = "http://localhost:5001/api";
 
 const Account = () => {
 const [user, setUser] = useState(null);

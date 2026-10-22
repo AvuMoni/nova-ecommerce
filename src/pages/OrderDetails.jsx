@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-
-const API_URL = "http://localhost:5001/api";
+import API_URL from "../api";
 
 const OrderDetails = () => {
 const { id } = useParams();

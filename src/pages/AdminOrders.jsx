@@ -1,7 +1,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import API_URL from "../api";
 
-const API_URL = "http://localhost:5001/api";
 
 const ORDER_STATUSES = [
   "pending",
